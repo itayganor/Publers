@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "carmelit";
+	src: url("fonts/carmelitregular.eot");
+	src: local("☺"),
+        url("fonts/carmelitregular.woff") format("woff"),
+        url("fonts/carmelitregular.ttf") format("truetype"),
+        url("fonts/carmelitregular.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: "carmelit";
+    src: url("fonts/carmelitbold.eot");
+    src: local("☺"),
+        url("fonts/carmelitbold.woff") format("woff"),
+        url("fonts/carmelitbold.ttf") format("truetype"),
+        url("fonts/carmelitbold.svg") format("svg");
+    font-weight: bold;
+    font-style: normal;
+}

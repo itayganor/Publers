@@ -1,0 +1,162 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+a {
+text-decoration:none;
+}
+
+body {
+	margin:0;
+	font-family:carmelit;
+	direction:rtl;
+}
+header {
+	background:#3498db;
+	color:#ecf0f1;
+	text-align:center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:49px;
+	line-height:65px;
+}
+
+.open-menu {
+display:inline-block;
+width: 35px;
+height: 27px;
+float: left;
+background:url(../images/menu.png) 0 center no-repeat;
+margin: 18px 0 0 20px;
+}
+
+.createsmall {
+display:inline-block;
+width: 35px;
+height: 35px;
+float: right;
+background:url(../images/smallercreate.png) 0 center no-repeat;
+margin: 13px 20px 0 14px;
+}
+
+.back {
+display:inline-block;
+width: 35px;
+height: 35px;
+float: right;
+background:url(../images/arrowright.png) 0 center no-repeat;
+margin: 13px 10px 0 14px;
+}
+
+.publers-list,
+.items {
+		list-style:none;
+		padding:0 15px;
+}
+
+.publers-list li {
+padding: 10px 10px;
+/*
+background-image: url(../images/arrow.png);
+background-repeat:no-repeat;
+background-position:25px center;
+*/
+background:url(../images/arrow.png) 25px center no-repeat;
+border-bottom:1px solid #c8c8c8;
+}
+
+.publers-list li h1 {
+color: #3498db;
+margin: 1px 0px;
+font-weight:normal;
+}
+
+.publers-list li p {
+margin: 0px;
+
+}
+
+.publers-list a {
+color:#2c3e50;
+text-decoration:none;
+}
+
+.publers-list li:hover,
+.items li:hover {
+background-color: #eee;
+}
+
+.create-button {
+text-align:center;
+color:#3498db;
+text-decoration:none;
+}
+
+.create-button:hover {
+color: #2980b9;
+}
+
+.create-button .icon {
+display: inline-block;
+width: 46px;
+height: 46px;
+background: url(../images/createmore.png);
+margin: 10px 0 0 4px;
+}
+
+.create-button:hover .icon {
+background:url(../images/createmorehover.png);
+}
+
+.items {
+list-style:none;
+}
+.items li {
+	border-bottom:1px solid #c8c8c8;
+}
+.items p {
+line-height:35px;
+padding: 10px;
+overflow:auto;
+}
+.items label {
+float:right;
+}
+
+.clear {
+clear:both;
+}
+
+.items label .status {
+display: inline-block;
+width: 47px;
+height: 35px;
+background:url(../images/undones.png) 0 center no-repeat;
+float:right;
+padding: 10px 0px;
+}
+.items .delete {
+	display:inline-block;
+	width:25px;
+	height:24px;
+	background:url(../images/x.png) center center no-repeat;
+	float:left;
+	padding: 16px;
+}
+.items label input[type="checkbox"]:checked ~ .status {
+	background: url(../images/dones.png) 0 center no-repeat;
+}
+.items label input[type="checkbox"] {
+	visibility:hidden;
+	position:absolute;
+}
+
+input[type="text"] {
+border:0;
+font-family:carmelit;
+background:transparent;
+font-size:20px;
+width:100%;
+line-height: 35px;
+}
+
